@@ -4,13 +4,13 @@ part of video_cast;
 ///
 /// Pass to [ChromeCastButton.onButtonCreated] to receive a [ChromeCastController]
 /// when the button is created.
-typedef void OnButtonCreated(ChromeCastController controller);
+typedef OnButtonCreated = void Function(ChromeCastController controller);
 
 /// Callback method for when a request has failed.
-typedef void OnRequestFailed(String? error);
+typedef OnRequestFailed = void Function(String? error);
 
 ///Callback when a cast session is starting to end.
-typedef void OnSessionEnding(int? position);
+typedef OnSessionEnding = void Function(int? position);
 
 /// Widget that displays the ChromeCast button.
 class ChromeCastButton extends StatelessWidget {

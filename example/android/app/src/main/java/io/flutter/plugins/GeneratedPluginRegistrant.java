@@ -17,7 +17,7 @@ public final class GeneratedPluginRegistrant {
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     try {
       flutterEngine.getPlugins().add(new com.videocast.video_cast.VideoCastPlugin());
-    } catch(Exception e) {
+    } catch (Exception e) {
       Log.e(TAG, "Error registering plugin video_cast, com.videocast.video_cast.VideoCastPlugin", e);
     }
   }
