@@ -26,7 +26,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 34
+    namespace 'com.twbt.video_cast'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
